@@ -7,9 +7,214 @@
       rel="stylesheet"
     />
     <link href="css/styles.css" rel="stylesheet" />
+    <link href="css/media-query.css" rel="stylesheet" />
+    <title>Module 1 - Project - Build a webpage</title>
   </head>
 
   <body>
     <!-- write some HTML! -->
+    <header>
+      <img
+        src="./imgs/logo.svg"
+        alt="Infinite Designs Inc. Logo"
+        class="icon"
+      />
+      <nav class="nav-menu">
+        <ul class="menu-list">
+          <div class="menu-item-box feat">
+            <a href="#features"><li class="menu-item">Features</li></a>
+            <div class="underline feat-line"></div>
+          </div>
+          <div class="menu-item-box advan">
+            <a href="#advantages"><li class="menu-item">Advantages</li></a>
+            <div class="underline advan-line"></div>
+          </div>
+          <div class="menu-item-box gal">
+            <a href="#gallery"><li class="menu-item">Gallery</li></a>
+            <div class="underline gal-line"></div>
+          </div>
+          <div class="menu-item-box prod">
+            <a href="#products"><li class="menu-item">Products</li></a>
+            <div class="underline prod-line"></div>
+          </div>
+        </ul>
+      </nav>
+      <button class="hamburger-btn" disabled>
+        <img src="./imgs/menu.svg" alt="" />
+      </button>
+    </header>
+    <main class="hero">
+      <section class="hero-content">
+        <div class="hero-title-div">
+          <h1>Introducing Falcon 9</h1>
+        </div>
+
+        <div class="hero-texts">
+          <div class="hero-subtitle">
+            <h2>We make dreams come true</h2>
+          </div>
+
+          <div class="hero-subtext">
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione
+              sit laborum, eum sunt dolorum aperiam! Eos cupiditate magni
+              reiciendis odio, aspernatur quasi id accusantium!
+            </p>
+
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Doloremque laborum pariatur cumque accusantium corporis
+              consectetur sit porro reprehenderit nulla, illum, tempore
+              reiciendis corrupti error!
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <section class="cards-section flex-center" id="features">
+      <div class="all-three-cards flex-center">
+        <div class="card flex-center">
+          <div class="icon-animation checkmark-icon">
+            <img
+              src="./imgs/icon_check.svg"
+              alt="Falcon 9 certified"
+              class="card-icon"
+            />
+          </div>
+          <h3>Amazing feature 1</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
+            eaque sit quaerat et ullam praesentium in quibusdam!
+          </p>
+          <button class="get-it-btn">Get it</button>
+        </div>
+        <div class="card flex-center">
+          <img
+            src="./imgs/icon_reload.svg"
+            alt="Infinite Design is always up to date"
+            class="card-icon refresh-icon"
+          />
+          <h3>Amazing feature 2</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur
+            quidem temporibus fugit, fuga molestias maiores commodi aut!
+          </p>
+          <button class="sell-it-btn">Sell it</button>
+        </div>
+        <div class="card flex-center">
+          <img
+            src="./imgs/icon_fingerprint.svg"
+            alt="Infinite Design's Falcon 9 authentication is on point"
+            class="card-icon fingerprint-icon"
+          />
+          <h3>Amazing feature 3</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis
+            asperiores harum aperiam fugit sed molestiae fugiat rerum!
+          </p>
+          <button class="do-it-btn">Do it</button>
+        </div>
+      </div>
+    </section>
+    <section class="cool-text-section flex-center" id="advantages">
+      <div class="some-cool-text-div">
+        <h1>Some cool text</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, ad at
+          quos reiciendis quibusdam veritatis, facilis repudiandae vitae veniam
+          explicabo sunt accusantium aut inventore!
+        </p>
+      </div>
+      <div class="hover-div flex-center">
+        <h4>This looks cool</h4>
+        <p>Hover me if you like random animations</p>
+      </div>
+    </section>
+    <section class="gradient" id="products">
+      <div class="gradient-textbox">
+        <h1>Slick gradient</h1>
+        <p>Lorem, ipsum?</p>
+      </div>
+    </section>
+    <section class="img-gallery" id="gallery">
+      <div class="img-frame">
+        <img src="./imgs/tesla.jpg" class="tesla" alt="Tesla SEO" />
+        <div class="center-text-div">
+          <p>Our flagship car: The Model S</p>
+        </div>
+      </div>
+      <div class="img-frame">
+        <img src="./imgs/procat.jpg" class="grumpy-cat" alt="Grumpy cat SEO" />
+        <div class="center-text-div"><p>Cool cat</p></div>
+      </div>
+      <div class="img-frame">
+        <img
+          src="./imgs/hyperloop.jpg"
+          class="bullet-train"
+          alt="Bullet train SEO"
+        />
+        <div class="center-text-div"><p>Introducing: The Hyperloop</p></div>
+      </div>
+
+      <div class="img-frame">
+        <img
+          src="./imgs/sneakycat.jpg"
+          class="sneaky-cat"
+          alt="Sneaky cat SEO"
+        />
+        <div class="center-text-div"><p>So sneaky</p></div>
+      </div>
+      <div class="img-frame">
+        <img src="./imgs/falconrocket.jpeg" class="rocket" alt="Rocket SEO" />
+        <div class="center-text-div"><p>BFR - Big Falcon Rocket</p></div>
+      </div>
+      <div class="img-frame">
+        <img
+          src="./imgs/funnycat.jpg"
+          class="cat-on-crack"
+          alt="Cat on crack SEO"
+        />
+        <div class="center-text-div"><p>So much fun</p></div>
+      </div>
+    </section>
+    <section class="register">
+      <div class="register-container">
+        <label for="email">Register to our mailing list:</label>
+        <div class="input-bar">
+          <input type="email" name="email" id="email" />
+          <button type="submit">
+            <img src="./imgs/icon_send.svg" alt="" />
+          </button>
+        </div>
+        <input type="checkbox" name="notify" id="notify" />
+        <label for="notify">Send me daily cat images</label>
+      </div>
+    </section>
+    <footer>
+      <ul class="footer-list">
+        <li><a href="#">About us</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Legal notes</a></li>
+        <li><a href="#">Copyright</a></li>
+      </ul>
+      <ul class="footer-list">
+        <li><a href="#">About us</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Legal notes</a></li>
+        <li><a href="#">Copyright</a></li>
+      </ul>
+      <ul class="footer-list">
+        <li><a href="#">About us</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Legal notes</a></li>
+        <li><a href="#">Copyright</a></li>
+      </ul>
+      <ul class="footer-list">
+        <li><a href="#">About us</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Legal notes</a></li>
+        <li><a href="#">Copyright</a></li>
+      </ul>
+    </footer>
   </body>
 </html>

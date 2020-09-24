@@ -1,0 +1,156 @@
+@media only screen and (max-width: 1420px) {
+  .hero {
+    padding: 0px;
+  }
+
+  .hero-content {
+    width: 90%;
+    height: 80%;
+    font-weight: 600;
+  }
+
+  .hero-texts {
+    height: 100%;
+  }
+
+  .hero-subtext {
+    display: block;
+    box-sizing: border-box;
+  }
+
+  .hero-subtitle h2 {
+    font-size: 2.5em;
+  }
+  .hero-subtitle {
+    padding-right: 20px;
+  }
+
+  .hero-subtext p {
+    line-height: 40px;
+    font-weight: 500;
+    font-size: 0.8em;
+  }
+
+  .cards-section {
+    height: 100%;
+    padding: 30px 0;
+  }
+
+  .all-three-cards {
+    display: flexbox;
+    flex-wrap: wrap;
+    justify-content: center !important;
+  }
+
+  .card {
+    margin: 10px;
+  }
+
+  .img-frame {
+    height: 500px;
+    width: calc(100% / 2);
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .hero-content {
+    border: none;
+    flex-direction: column;
+    height: 60%;
+  }
+
+  h1 {
+    font-size: 3em;
+  }
+
+  .hero-subtext {
+    padding: 10px 0px 0px 15px;
+  }
+
+  .hero-subtitle h2 {
+    font-size: 1.5em;
+    padding-bottom: 0;
+    border: none;
+  }
+
+  .hero-subtext p {
+    line-height: 40px;
+    font-size: 1em;
+    padding-right: 10px;
+  }
+  .img-frame {
+    height: 500px;
+    width: 100%;
+  }
+
+  footer {
+    flex-direction: column;
+    align-items: flex-start;
+    height: 100%;
+    padding: 50px 50px;
+  }
+
+  .footer-list > li {
+    padding: 5px 0;
+  }
+}
+
+@media only screen and (max-width: 670px) {
+  .menu-list {
+    display: none;
+  }
+
+  .hamburger-btn {
+    display: inline-block;
+    background: transparent;
+    border: none;
+  }
+
+  header {
+    position: relative;
+  }
+
+  .menu-list {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    background: #3a3633;
+    display: none;
+  }
+
+  .menu-item {
+    padding: 20px 0;
+  }
+
+  .menu-item-box {
+    width: 100%;
+    text-align: center;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .underline {
+    display: none;
+  }
+
+  .feat:hover {
+    background: #69635e;
+  }
+  .advan:hover {
+    background: #69635e;
+  }
+  .gal:hover {
+    background: #69635e;
+  }
+  .prod:hover {
+    background: #69635e;
+  }
+
+  header:hover .menu-list {
+    display: block;
+  }
+}
