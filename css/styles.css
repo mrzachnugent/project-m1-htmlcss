@@ -5,10 +5,13 @@
 
 html {
   scroll-behavior: smooth;
+  box-sizing: border-box;
 }
 
 body {
   font-family: "Poppins", Helvetica, sans-serif;
+  box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 /*HEADER*/

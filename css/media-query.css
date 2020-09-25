@@ -96,6 +96,10 @@
 }
 
 @media only screen and (max-width: 670px) {
+  .intro-p {
+    font-size: 4em;
+  }
+
   .menu-list {
     display: none;
   }
@@ -152,5 +156,9 @@
 
   header:hover .menu-list {
     display: block;
+  }
+
+  .some-cool-text-div > p {
+    font-size: 0.9em;
   }
 }
